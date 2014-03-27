@@ -3,5 +3,6 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\Champ\AppData\Local\Temp\application_refcache</ReferenceCachePath>
     <ShowAllFiles>false</ShowAllFiles>
+    <AutoRefresh>false</AutoRefresh>
   </PropertyGroup>
 </Project>

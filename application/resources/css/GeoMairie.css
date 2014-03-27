@@ -1,0 +1,10 @@
+﻿.welcome { 
+  background-image:url('../images/welcome.jpg') !important; 
+  background-repeat:repeat-x !important; 
+  background-position:center;  
+  background-color:#1C3AFF !important; 
+}
+
+.welcome-background {  
+  background-color:#9BD0FF !important; 
+}

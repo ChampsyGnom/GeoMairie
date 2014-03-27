@@ -60,12 +60,16 @@
     <Content Include="app\Application.js" />
     <Content Include="app\controller\Main.js" />
     <Content Include="app\controller\Readme.md" />
-    <Content Include="app\model\Readme.md" />
-    <Content Include="app\store\Readme.md" />
+    <Content Include="app\view\Login\Welcome.js" />
     <Content Include="app\view\Main.js" />
-    <Content Include="app\view\Readme.md" />
     <Content Include="app\view\Viewport.js" />
     <Content Include="index.html" />
+    <Content Include="resources\css\GeoMairie.css" />
+    <Content Include="resources\images\welcome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\model\" />
+    <Folder Include="app\store\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment

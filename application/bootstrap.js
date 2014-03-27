@@ -829,6 +829,7 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "GeoMairie.Application": [],
   "GeoMairie.controller.Main": [],
+  "GeoMairie.view.Login.Welcome": [],
   "GeoMairie.view.Main": [],
   "GeoMairie.view.Viewport": []
 });
@@ -1819,6 +1820,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "GeoMairie.Application": [],
   "GeoMairie.controller.Main": [],
+  "GeoMairie.view.Login.Welcome": [
+    "widget.welcome"
+  ],
   "GeoMairie.view.Main": [
     "widget.app-main"
   ],

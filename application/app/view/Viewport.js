@@ -4,7 +4,7 @@ Ext.define('GeoMairie.view.Viewport', {
         'Ext.layout.container.Fit',
         'GeoMairie.view.Main'
     ],
-
+   
     layout: {
         type: 'fit'
     },

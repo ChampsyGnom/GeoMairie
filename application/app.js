@@ -6,7 +6,9 @@
 
 Ext.application({
     name: 'GeoMairie',
-
+    requires: [
+        'GeoMairie.view.Login.Welcome'       
+    ],
     extend: 'GeoMairie.Application',
     
     autoCreateViewport: true

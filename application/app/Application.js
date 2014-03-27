@@ -8,6 +8,7 @@ Ext.define('GeoMairie.Application', {
     ],
 
     controllers: [
+        'Main'
         // TODO: add controllers here
     ],
 

@@ -1,26 +1,25 @@
 Ext.define('GeoMairie.view.Main', {
-    extend: 'Ext.container.Container',
+    extend: 'Ext.Panel',
     requires:[
-        'Ext.tab.Panel',
-        'Ext.layout.container.Border'
+        'Ext.Panel'     
     ],
-    
-    xtype: 'app-main',
-
-    layout: {
-        type: 'border'
+    border: false,   
+    xtype: 'app-main',   
+    layout:
+    {
+        type: 'fit'
     },
 
-    items: [{
-        region: 'west',
+    items: [
+    {
+        xtype: 'welcome'
+        
+    }
+    ,
+    {
         xtype: 'panel',
-        title: 'west',
-        width: 150
-    },{
-        region: 'center',
-        xtype: 'tabpanel',
-        items:[{
-            title: 'Center Tab 1'
-        }]
-    }]
+        hidden: true
+       
+    }
+    ]
 });
