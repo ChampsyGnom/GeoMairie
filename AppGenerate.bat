@@ -1,0 +1,1 @@
+sencha -sdk C:\Users\Champ\Documents\GitHub\GeoMairie\libs\ext-js-4.2.1 generate app GeoMairie C:\Users\Champ\Documents\GitHub\GeoMairie\application
